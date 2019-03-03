@@ -7,13 +7,15 @@ Raman Kryvasheyeu
 
 
 ## Contacts: ##
-Phone/telegram/viber: +375 (29) 501-95-40  
+Phone/viber: [+375(29)501-95-40](tel:+375295019540)  
 
-E-mail: kramankramank@gmail.com / jhnsmthmit@gmail.com  
+E-mail: [kramankramank@gmail.com](mailto:kramankramank@gmail.com) / [jhnsmthmit@gmail.com](mailto:jhnsmthmit@gmail.com)  
 
 Discord: @Sijio#4284  
 
-Skype: kramankramank
+Telegram: [@Sijioth](https://t.me/Sijioth)
+
+Skype: [kramankramank](skype:kramankramank?chat)
 
 ## Summary: ##
 I consider myself as honest person and I'm highly motivated to make programming my lifetime project. 
@@ -41,7 +43,8 @@ Another one project is maintaining and enhancing the CPA-network ([https://www.c
 >		-> if no - get next free consultant’s id from special database table and pass it to specified field in another database table.  
 >				-> then get consultant’s e-mail from database and send notification with new webmaster’s contacts in it.
 
-[auto-send notification to webmaster's consultant after webmaster's account activation](https://pastebin.com/ddWhJL4e).  
+[auto-send notification to webmaster's consultant after webmaster's account activation](https://pastebin.com/ddWhJL4e);
+[correct script to determine the amount of income from referral](https://pastebin.com/QuqP7h8T).  
 The most recent code examples one could find at my github page: [https://github.com/sijioth](https://github.com/sijioth).
 
 
