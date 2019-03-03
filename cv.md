@@ -36,9 +36,9 @@ One of the tasks at my present job is to write and maintain the application to d
 
 Another one project is maintaining and enhancing the CPA-network ([https://www.cpainside.com](https://www.cpainside.com)) based on the platform written in PHP ([example](https://mastertraf.com)). My duties in the project are to handle all tech issues appearing during its lifecycle. To keep database up to date. To write code for different improvements and make code-logic fixes, for example: 
 [webmaster-to-consultant auto-distribution script](https://pastebin.com/af9JKa9C), which works by following algorithm:
->at new webmaster registration check if there is a referral link 
->		-> if yes - pass the consultant id from it to a specified field in database table.
->		-> if no - get next free consultant’s id from special database table and pass it to specified field in another database table.
+>at new webmaster registration check if there is a referral link  
+>		-> if yes - pass the consultant id from it to a specified field in database table.  
+>		-> if no - get next free consultant’s id from special database table and pass it to specified field in another database table.  
 >				-> then get consultant’s e-mail from database and send notification with new webmaster’s contacts in it.
 
 [auto-send notification to webmaster's consultant after webmaster's account activation](https://pastebin.com/ddWhJL4e).  
@@ -47,7 +47,7 @@ The most recent code examples one could find at my github page: [https://github.
 
 ## Education: ##
 BSU, Minsk. Faculty of Radiophysics and Computer Technologies. 2007 - 2016.  
-Specialist in the field of mathematics and physics sciences.  
+Specialist in mathematics and physics.  
 ### Couses: ###
 [Rolling Scopes School 2019-Q1](https://school.rollingscopes.com/index.html)  
 [Codecademy](https://www.codecademy.com/Sijioth#completed)  
@@ -61,5 +61,5 @@ Specialist in the field of mathematics and physics sciences.
 ## English level ##
 B1 according to the tests at training.by, test.str.by and englex.ru.
 I’ve been practicing during the international conferences in Belarus, Russia, Ukraine and Lithuania. 
-There were occasion in 2016, when I was asked to accompany a professor from Pakistan, who arrived to attend the conference.
-I often read articles and books, do tasks at [DuoLingo](https://ru.duolingo.com/Sijioth) and listen to English-speaking podcasts in order to improve my language skills.
+There were occasion in 2016, when I was asked to accompany a professor from Pakistan, who arrived to attend the conference.  
+Currently I read articles and books, do tasks at [DuoLingo](https://ru.duolingo.com/Sijioth) and listen to English-speaking podcasts in order to improve my language skills.
