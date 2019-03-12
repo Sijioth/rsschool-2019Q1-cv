@@ -9,26 +9,26 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <header>
-      <div class="my-photo">
-        <img src="./assets/img/photo.jpg" alt="Raman Kryvasheyeu" width="128" height="192">
+    <header itemscope itemtype="http://schema.org/Person">
+      <div class="my-photo" >
+        <img src="./assets/img/photo.jpg" itemprop="image" alt="Raman Kryvasheyeu" width="128" height="192">
       </div>
       <div class="name">
-        <h1>Raman Kryvasheyeu</h1>
-        <h2><small>pre-</small>Junior Frontend Developer</h2>
+        <h1 itemprop="name"><span itemprop="givenName">Raman</span> <span itemprop="familyName">Kryvasheyeu</span></h1>
+        <h2><small>pre-</small><span itemprop="jobTitle">Junior Frontend Developer</span></h2>
       </div>
       <div class="contacts">
         <ul>
-          <li class="phone">tel: <a href="tel:+375295019540">+375(29)501-95-40</a></li>
-          <li class="e-mail">e-mail: <a href="mailto:kramankramank@gmail.com">kramankramank@gmail.com</a></li>
-          <li class="telegram">telegram: <a href="https://t.me/Sijioth">@Sijioth</a></li>
-          <li class="skype">skype: <a href="skype:kramankramank?chat">kramankramank</a></li>
-          <li class="github">github: <a href="https://github.com/sijioth">@Sijioth</a></li>
+          <li class="phone" itemprop="telephone">tel: <a href="tel:+375295019540">+375(29)501-95-40</a></li>
+          <li class="e-mail" itemprop="email">e-mail: <a href="mailto:kramankramank@gmail.com">kramankramank@gmail.com</a></li>
+          <li class="telegram" itemprop="url">telegram: <a href="https://t.me/Sijioth">@Sijioth</a></li>
+          <li class="skype" itemprop="url">skype: <a href="skype:kramankramank?chat">kramankramank</a></li>
+          <li class="github" itemprop="url">github: <a href="https://github.com/sijioth">@Sijioth</a></li>
         </ul>
       </div>
       <div class="clear"></div>
     </header>
-    <main>
+    <main itemscope itemtype="http://schema.org/Person">
       <section class="summary">
         <article>
           <div class="section-title">
@@ -72,16 +72,16 @@
           </div>
           <div class="section-content">
             <ul>
-              <li>HTML </li>
-              <li>CSS</li>
-              <li>Git</li>
-              <li>Java</li>
-              <li>AWT</li>
-              <li>Swing</li>
-              <li>MySQL</li>
-              <li>Javascript</li>
-              <li>PHP</li>
-              <li>Photoshop</li>
+              <li itemprop="knowsAbout">HTML</li>
+              <li itemprop="knowsAbout">CSS</li>
+              <li itemprop="knowsAbout">Git</li>
+              <li itemprop="knowsAbout">Java</li>
+              <li itemprop="knowsAbout">AWT</li>
+              <li itemprop="knowsAbout">Swing</li>
+              <li itemprop="knowsAbout">MySQL</li>
+              <li itemprop="knowsAbout">Javascript</li>
+              <li itemprop="knowsAbout">PHP</li>
+              <li itemprop="knowsAbout">Photoshop</li>
             </ul>
           </div>
         </article>
@@ -100,10 +100,10 @@
               because the application core logic would change less often.
             </p>
             <p>
-              Another project is maintaining and enhancing the <a href="https://www.cpainside.com">CPA-network</a> based on the platform written in 
-              PHP (<a href="https://mastertraf.com/">example</a>). My duties in the project are to handle all tech issues appearing during its lifecycle. 
+              Another project is maintaining and enhancing the <a href="https://www.cpainside.com" itemprop="url">CPA-network</a> based on the platform written in 
+              PHP (<a href="https://mastertraf.com/" itemprop="url">example</a>). My duties in the project are to handle all tech issues appearing during its lifecycle. 
               To keep the database up to date. To write code for different improvements and make code-logic fixes, 
-              for example, <a href="https://pastebin.com/af9JKa9C">webmaster-to-consultant auto-distribution script</a>, 
+              for example, <a href="https://pastebin.com/af9JKa9C" itemprop="url">webmaster-to-consultant auto-distribution script</a>, 
               which works by the following algorithm:
             </p>
             <p>
@@ -115,9 +115,9 @@
               </code>
             </p>
             <p>
-              <a href="https://pastebin.com/ddWhJL4e">auto-send notification to webmaster’s consultant after webmaster’s account activation</a>; <br>
-              <a href="https://pastebin.com/QuqP7h8T">correct script to determine the amount of income from referral</a>. <br>
-              The most recent code examples one could find at my GitHub page: <a href="https://github.com/sijioth">https://github.com/sijioth</a>.
+              <a href="https://pastebin.com/ddWhJL4e" itemprop="url">auto-send notification to webmaster’s consultant after webmaster’s account activation</a>; <br>
+              <a href="https://pastebin.com/QuqP7h8T" itemprop="url">correct script to determine the amount of income from referral</a>. <br>
+              The most recent code examples one could find at my GitHub page: <a href="https://github.com/sijioth" itemprop="url">https://github.com/sijioth</a>.
             </p>
           </div>
         </article>
@@ -129,18 +129,19 @@
             <h3>Education</h3>
           </div>
           <div class="section-content">
-            <p>
-              BSU, Minsk. Faculty of Radiophysics and Computer Technologies (2007 - 2016).
+            <p itemprop="alumniOf">
+              Belarusian State University, Minsk. <br>
+              Faculty of Radiophysics and Computer Technologies (2007 - 2016). <br>
               Specialist in mathematics and physics.
             </p>
             <ul>
-              <li><a href="https://school.rollingscopes.com/index.html">Rolling Scopes School 2019-Q1</a></li>
-              <li><a href="https://www.codecademy.com/Sijioth#completed">Codecademy</a></li>
-              <li><a href="https://htmlacademy.ru/profile/id1020449">HTML-academy</a></li>
-              <li><a href="https://geekbrains.ru/certificates/93816">Geekbrains - Programming Basics</a></li>
-              <li><a href="https://geekbrains.ru/certificates/100364">Geekbrains - Git Basics</a></li>
-              <li><a href="https://geekbrains.ru/certificates/310355">Geekbrains - Java. Level 1</a></li>
-              <li><a href="https://geekbrains.ru/certificates/310358">Geekbrains - Programming Basics. Test</a></li>
+              <li><a href="https://school.rollingscopes.com/index.html" itemprop="url">Rolling Scopes School 2019-Q1</a></li>
+              <li><a href="https://www.codecademy.com/Sijioth#completed" itemprop="url">Codecademy</a></li>
+              <li><a href="https://htmlacademy.ru/profile/id1020449" itemprop="url">HTML-academy</a></li>
+              <li><a href="https://geekbrains.ru/certificates/93816" itemprop="url">Geekbrains - Programming Basics</a></li>
+              <li><a href="https://geekbrains.ru/certificates/100364" itemprop="url">Geekbrains - Git Basics</a></li>
+              <li><a href="https://geekbrains.ru/certificates/310355" itemprop="url">Geekbrains - Java. Level 1</a></li>
+              <li><a href="https://geekbrains.ru/certificates/310358" itemprop="url">Geekbrains - Programming Basics. Test</a></li>
             </ul>
           </div>
         </article>
@@ -149,16 +150,16 @@
       <section class="eng-lvl">
         <article>
           <div class="section-title">
-            <h3>English level</h3>
+            <h3><span itemprop="knowsLanguage">English</span> level</h3>
           </div>
           <div class="section-content">
             <p>
-              B1 according to the tests at training.by, test.str.by and englex.ru. I’ve been practicing during the 
-              international conferences in Belarus, Russia, Ukraine, and Lithuania. 
-              There was an occasion in 2016 when I was asked to accompany a professor from Pakistan, who arrived to attend the conference.
+              B1 according to the tests at <a href="https://training.by" itemprop="url">training.by</a>, <a href="https://test.str.by" itemprop="url">test.str.by</a> 
+              and <a href="https://englex.ru" itemprop="url">englex.ru</a>. I’ve been practicing during the international conferences in Belarus, Russia, Ukraine, 
+              and Lithuania. There was an occasion in 2016 when I was asked to accompany a professor from Pakistan, who arrived to attend the conference.
             </p>
             <p>
-              Currently, I read articles and books, do tasks at <a href="https://ru.duolingo.com/Sijioth">DuoLingo</a> and listen to 
+              Currently, I read articles and books, do tasks at <a href="https://ru.duolingo.com/Sijioth" itemprop="url">DuoLingo</a> and listen to 
               English-speaking podcasts in order to improve my language skills.
             </p>
           </div>
