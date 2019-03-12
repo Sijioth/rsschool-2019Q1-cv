@@ -39,26 +39,22 @@
 }
 
 html {
-  background: #181818; 
-  font-family: "Lato", helvetica, arial, sans-serif; 
-  font-size: 16px; 
+  font-size: 16px;
+  font-family: "Lato", helvetica, arial, sans-serif;
   color: #222222;
+  background: #181818;
 }
 
 body {
   max-width: 1024px;
-  display: grid;
-  grid-template-areas: "header"
-                         "main";
-  background: #f3f3f3;
   margin: 30px auto;
+  background: #f3f3f3;
 }
 
 header {
-  grid-area: header;
   padding: 25px 35px;
-  border-bottom: 2px solid #cf8a05;
   background: #ededed;
+  border-bottom: 2px solid #cf8a05;
 }
 
 small {
@@ -66,23 +62,22 @@ small {
 }
 
 main {
-  grid-area: main;
   padding: 0 40px;
 }
 
 code {
   display: block;
-  background: #dedede;
-  font-style: oblique;
-  border-left: 2px solid #77777777;
   padding-left: 10px;
+  font-style: oblique;
+  background: #dedede;
+  border-left: 2px solid #77777777;
 }
 
 p, 
 .summary li {
+  margin-bottom: 20px;
   font-size: 1em;
   line-height: 1.4em;
-  margin-bottom: 20px;
   color: #444444;
 }
 
@@ -105,15 +100,15 @@ p,
 }
 
 .name h1 {
-  font-size: 2.5em;
-  font-weight: 700;
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
   margin-bottom: -6px;
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
 }
 
 .name h2 {
-  font-size: 2em;
   margin-left: 2px;
+  font-size: 2em;
   font-family: "Rokkitt", Helvetica, Arial, sans-serif;
 }
 
@@ -123,8 +118,8 @@ p,
 }
 
 .contacts ul {
-  font-size: 0.9em;
   margin-top: 2px;
+  font-size: 0.9em;
 }
 
 .contacts ul li {
@@ -133,24 +128,23 @@ p,
 }
 
 li a {
-  color: #444444; 
   text-decoration: none;
+  color: #444444;
   -webkit-transition: color .3s ease-in;
   -moz-transition: color .3s ease-in;
   -o-transition: color .3s ease-in;
-  -ms-transition: color .3s ease-in;
   transition: color .3s ease-in;
 }
 
 li a:hover,
 a { 
-  color: #cf8a05;
   text-decoration: none;
+  color: #cf8a05;
 }
 
 section {
-  border-top: 1px solid #dedede;
   padding: 20px 0 0;
+  border-top: 1px solid #dedede;
 }
 
 section:first-child {
@@ -172,29 +166,86 @@ section:last-child {
 }
 
 .section-title, h3 {
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 1.3em;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
   color: #cf8a05;
 }
 
 .section-content .key-bold {
-  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: 600;
   margin-bottom: -2px;
+  font-weight: 600;
+  font-size: 1.5em;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
 }
 
 .technologies ul {
-  list-style-type: none;
+  margin-bottom: 20px;
+  color: #444444;
   -moz-column-count:3;
   -webkit-column-count:3;
   column-count:3;
-  margin-bottom: 20px;
-  font-size: 1em;
-  color: #444444;
 }
 
 .education ul {
   margin-bottom: 20px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+  .my-photo {
+    display: none;
+  }
+}
+
+@media all and (max-width: 601px) {
+  body {
+    width: 95%;
+    min-width: 280px;
+    margin: 10px auto;
+  }
+	
+  .my-photo {
+    display: none;
+  }
+	
+  .name, .contacts {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+	
+  .section-title, .section-content {
+    float: none;
+    width: 100%;
+  }
+	
+  .section-title {
+    margin-left: -2px;
+    font-size: 1.25em;
+  }
+}
+
+@media all and (max-width: 480px) {
+  header {
+    padding: 15px 15px;
+  }
+	
+  section {
+    padding: 15px 0 0;
+  }
+	
+  main {
+    padding: 0 25px;
+  }
+	
+  .name h1 {
+    margin-bottom: 4px;
+    line-height: .8em;
+  }
+}
+
+@media print {
+  body {
+    width: 100%;
+  }
 }
